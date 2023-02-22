@@ -2,7 +2,9 @@
   "name": "myorg",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "node ./tools/scripts/patch-nx-cli.js"
+  },
   "private": true,
   "dependencies": {
     "core-js": "^3.6.5",
@@ -24,6 +26,7 @@
     "@nrwl/react": "15.0.2",
     "@nrwl/web": "15.0.2",
     "@nrwl/workspace": "15.0.2",
+    "@nxtensions/astro": "^3.3.0",
     "@testing-library/react": "13.4.0",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
@@ -31,6 +34,7 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
+    "astro": "^2.0.0",
     "babel-jest": "28.1.1",
     "cypress": "^10.7.0",
     "eslint": "~8.15.0",

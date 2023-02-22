@@ -40,3 +40,8 @@ Thumbs.db
 
 # Next.js
 .next
+
+.astro
+
+# Local Netlify folder
+.netlify
