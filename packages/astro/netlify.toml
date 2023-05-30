@@ -1,0 +1,3 @@
+[build]
+command = "nx build astro"
+publish = "dist/packages/astro"
