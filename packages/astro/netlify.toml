@@ -1,3 +1,10 @@
 [build]
 command = "nx build astro"
 publish = "dist/packages/astro"
+
+[[edge_functions]]
+function = "abtest"
+path = "/abtest"
+
+[[plugins]]
+package = "./netlify/build-plugin"
