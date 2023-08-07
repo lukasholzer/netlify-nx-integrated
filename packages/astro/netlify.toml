@@ -1,5 +1,5 @@
 [build]
-# command = "nx build astro"
+command = "nx build astro"
 publish = "dist/packages/astro"
 
 [[edge_functions]]
