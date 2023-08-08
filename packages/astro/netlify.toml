@@ -1,6 +1,7 @@
 [build]
 command = "nx build astro"
 publish = "dist/packages/astro"
+ignore = "exit 1" # always say content changed
 
 [[edge_functions]]
 function = "abtest"
