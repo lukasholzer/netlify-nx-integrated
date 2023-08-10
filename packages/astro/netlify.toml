@@ -1,6 +1,6 @@
 [build]
-command = "nx build astro"
-publish = "dist/packages/astro"
+# command = "nx build astro"
+# publish = "dist/packages/astro"
 ignore = "exit 1" # always say content changed
 
 [[edge_functions]]
@@ -8,4 +8,4 @@ function = "abtest"
 path = "/abtest"
 
 [[plugins]]
-package = "/packages/astro/netlify/build-plugin"
+package = "netlify/build-plugin"
